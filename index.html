@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevFolio — NIKHIL RATHOR </title>
+    <meta name="description" content="Personal portfolio website" />
+    <!-- WEB DESIGN PROJECT OF NIKHIL RATHOR 25/A04/035 -->
+    <!-- exteral website used for fonts and icons  -->
+    <!-- fonts -->  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- icons -->  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!-- main body -->
+<body>
+<header class="header">
+    <!-- navigation section -->
+    <div class="container nav-container">
+        <a href="#home" class="logo"> <img src="_logo_nik-removebg-preview.png" alt="logo" > </a>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- home section  -->
+<section id="home" class="hero">
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <h4 class="eyebrow">Hello , Jii</h4>
+            <h1 class="title">Nikhil Rathor</h1>
+            <h2 class="subtitle">I’m a tech enthusiast</h2>
+            <!-- adding buttons -->
+            <div class="cta">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <!--  adding social links-->
+            <div class="socials">
+                <a href="https://github.com/nikh-tail/uas-dtu-1" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nikhil-rathor-761675389/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/?lang=en-in" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/nikhilrathor89/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-photo">
+            <!-- main profile image on home section -->
+            <img src="NIKHIL-removebg-preview.png" alt="Profile photo of Nikhil Rathor">
+        </div>
+    </div>
+</section>
+
+<!--about me   -->
+
+<section id="about" class="section">
+    <div class="container grid-2">
+        <div>
+            <h2>About me</h2>
+            <p>I’m a passionate developer focused on building delightful digital experiences. I blend clean code, accessible design, and practical problem-solving to ship projects that matter — while bringing creativity through graphic design and storytelling finesse in video editing.</p>
+            <h3>SKILLS</h3>
+            <ul class="about-list">
+                <li>HTML/CSS</li>
+                <li>PYTHON</li>
+                <li>OPENCV</li>
+                <li>AFTER EFFECTS</li>
+                <li>PHOTOSHOP</li>
+                <li>CANVA</li>
+            </ul>
+        </div>
+        <!-- experience and past work -->
+        <div>
+            <section id="experience">
+                <h3 class="section-title">Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="time">2025 — Present</span>
+                        <h4> Student Frontend Engineer, DTU </h4>
+                        <p>Led the frontend platform, improving Core Web Vitals and accessibility.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">2022 — 2023</span>
+                        <h4> Jr. Graphic Designer, wyre media</h4>
+                        <p>Designed cross-platform experiences for fintech and education products.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">2019 — 2021</span>
+                        <h4>Freelance Video Editor </h4>
+                        <p> Editing that turns clips into cinema </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<!-- real life visual projects -->
+<section id="portfolio" class="section section-muted">
+    <div class="container">
+        <h3 class="section-title">Portfolio</h3>
+        <div class="grid-3">
+            <figure class="work">
+                <a href = "https://www.linkedin.com/in/nikhil-rathor-761675389/" ><img src="%20images/%20nospace.png" alt="Project 1"></a>
+                <figcaption>
+                    <h5>Dashboard</h5><span>Frontend</span>
+                </figcaption>
+            </figure>
+            <figure class="work">
+                <a href="https://www.instagram.com/nikhilrathor89/" > <img src=" %20images/truface.png" alt="Project 2"></a>
+                <figcaption>
+                    <h5> Remance - Scene 1</h5><span>Personal Project</span>
+                </figcaption>
+            </figure>
+            <figure class="work">
+                <a href="https://www.instagram.com/nikhilrathor89/" ><img src="SaveGram.App_534122357_18075328643482949_2644830107291433008_n.jpg" alt="Project 3"></a>
+                <figcaption>
+                    <h5>Graphic Reel</h5><span>Client Project</span>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+<!-- contact me  -->
+<section id="contact" class="section">
+    <div class="container grid-2">
+        <div>
+            <h3 class="section-title">Contact me</h3>
+            <p>Let’s build something great. Share a few details and I’ll get back within 24 hours.</p>
+            <ul class="contact-list">
+                <li><i class="fa-solid fa-location-dot"></i> New Delhi, India</li>
+                <li><i class="fa-solid fa-envelope"></i> Nikhilrathorq@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> +91 8882949593</li>
+            </ul>
+        </div>
+
+        <div>
+        </div>
+    </div>
+</section>
+<!-- footer  -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>© <span id="year"></span> WEB DESIGN PROJECT OF NIKHIL RATHOR 25/A04/035. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
