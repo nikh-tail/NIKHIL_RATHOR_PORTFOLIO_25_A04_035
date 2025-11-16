@@ -17,10 +17,12 @@ a{ color: inherit; text-decoration: none; }
     width: min(1100px, 92vw);
     margin: 0 auto;
 }
+
 ::selection{
     color:greenyellow;
     background-color: #0c0c0f;
 }
+
 /* ---------- Header / Nav ---------- */
 .header{
     position: sticky;
